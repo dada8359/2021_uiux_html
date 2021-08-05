@@ -40,3 +40,25 @@ div.navWrap>nav.gnb li {float: left;width:calc(973px / 6);border-right: 1px soli
 div.navWrap>nav.gnb li:first-child{border-left:1px solid #336DAC;}
 div.navWrap>nav.gnb a{display: block; text-align: center; line-height: 45px; color:#fff; font-weight:normal}
 div.navWrap>nav.gnb a:hover{background-color: blue;}
+
+/* visual */
+div.visualWrap{
+    height: 400px; overflow: hidden;
+background-image: url(../images/vusualbg01.jpg);
+background-repeat: no-repeat; 
+background-position: center;
+background-color:#203B64;}
+
+div.visualWrap > div.visual{
+    width: 980px;height: 400px; position: relative; margin: 0 auto;
+}
+
+div.visualWrap > div.visual > div.visualTxt{
+    position: absolute;
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 84px;
+    letter-spacing: 0.275em;
+    color:white; margin-top: 93px;
+}
+div.visualWrap > div.visual > img{position:absolute; right: 0; top: -3px; }
