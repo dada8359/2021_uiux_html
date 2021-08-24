@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="kc">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,60 +7,55 @@
     <title>ani</title>
     <style>
         .box{
-            /* width: 100px; height: 100px;  */
+            /* width: 0px;height: 200px; */
             position: absolute;
             background: #f00;
-            animation-name: ani;
-            animation-duration:3s;/*작동시간*/
+            animation-name:ani;
+            animation-duration:2s; 
 
-            animation-fill-mode: forwards; /*애니메이션이 끝나는 부분에서 멈춤, 조금은 소심함 바로사라짐*/
-            animation-iteration-count:2;/*반복사용 2번 사용하겠다 infinite=무한반복*/
-            animation-direction: alternate;/*원상태복원*/
-            animation-timing-function: linear;/*일정시간간격으로 나온다*/
+            animation-fill-mode:forwards; /* 끝에서 멈춤*/
+            animation-iteration-count:infinite;/* 반복 */
+            animation-direction:alternate;/* 복원 */
+            animation-timing-function:linear; /* 에니메이션작동 */
+            animation-delay:1s;
 
-            /* animation-timing-function:linear; 천천히 일직선 */
-             /* animation-timing-function:ease-out; 쭉 뻣어나가는 느낌 */
+            
         }
         @keyframes ani{
-          0%{width: 100px; height: 0; left: 0;}  /*from=0% 시작*/
-          100%{width: 200px; height: 200px; left: 100px;} /*to=50% 끝*/
-                                                /*from=100%*/
-        }
-        
-        
-        .box1{
+            0%{width:0px;height: 0;left: 0;}
+            100%{width: 200px;height: 200px;left: 100px;}
             
-            position: absolute; bottom: 0; left: 50%; margin-left: -10px;
+        }
+
+        .box1{
+            width: 20px;height: 50px;background: blue;
+            border-radius:10px;position: absolute;
+            _bottom: 30px;left: 50%;margin-left: -10px;
             animation-name:scroll;
             animation-duration: 1s;
-            position: absolute;
-            animation-name: ani;
-            animation-duration:3s;/*작동시간*/
 
-            animation-fill-mode: forwards; /*애니메이션이 끝나는 부분에서 멈춤, 조금은 소심함 바로사라짐*/
-            animation-iteration-count:2;/*반복사용 2번 사용하겠다 infinite=무한반복*/
-            animation-direction: alternate;/*원상태복원*/
-            animation-timing-function: linear;/*일정시간간격으로 나온다*/
+            animation-fill-mode:forwards; /* 끝에서 멈춤*/
+            animation-iteration-count:infinite;/* 반복 */
+            animation-direction:alternate;/* 복원 */
+
 
         }
-        
-
-
-
-
-
         @keyframes scroll{
-            frome{bottom:30px;}
-            to{bottom:50px}
+            from{bottom:30px}
+            to{bottom: 50px;}
         }
 
-        .box1 .cir{width: 10px; height: 10px; background-color: #fff; border-radius: 50%; left: 50%; top:20px; position: absolute;
-        margin-left: -5px;}  
+        .box1 .cir{
+            width: 10px;height: 10px;background: #fff;border-radius: 50%;
+            position: absolute; left: 50%;top:5px;margin-left: -5px;
+        }
+
     </style>
 </head>
 <body>
     <div class="box"></div>
-    <div class="box1"></div>
-           <div class="cir"></div>
+    <div class="box1">
+        <div class="cir"></div>
+    </div>
 </body>
 </html>
