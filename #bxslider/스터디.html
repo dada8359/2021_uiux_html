@@ -4,23 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>스터디</title>
     <!--bxslider css-->
     <link rel="stylesheet" href="css/jquery.bxslider.css">
     <link rel="stylesheet" href="css/reset.css">
-     <!-- jquery file  -->
+    
+    
+    <!-- jquery file  -->
     <!-- script:src -->
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/jquery.bxslider.js"></script>
-    <script>
-          // $(document).ready(함수)
-        // $(document).ready(function(){ 실행문; }
     
-    $(document).ready(function(){
-      
+    <script>
+      $(document).ready(function(){
+            $('.slide').bxSlider({
+                mode:"fade",
+                pager:false,
+                controls:false,
+                auto:true
+            }); // slider
 
+        }); // jquery ready
 
-    })
 
 
 
@@ -28,7 +33,10 @@
 
 
     </script>
-
+    <style>
+      .sliderWrap{width: 1000px;margin: 0 auto;}
+      
+      </style>
 </head>
 <body>
       <div class="sliderWrap">
@@ -39,14 +47,7 @@
             </ul>
       </div>
 
-      <div class="slider1stWrap">
-             <div><img src="images/pic_1.jpg" alt=""></div>
-            <div><img src="images/pic_2.jpg" alt=""></div>
-            <div><img src="images/pic_3.jpg" alt=""></div>
-            <div><img src="images/pic_4.jpg" alt=""></div>
-            <div><img src="images/pic_5.jpg" alt=""></div>
-      </div>
-
+    
 
 </body>
 </html>
