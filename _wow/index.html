@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <head>
+        <!-- <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"> -->
+          <link rel="stylesheet" href="../css/reset.css">
+          <link rel="stylesheet" href="animate.css">
+          <script src="wow.js"></script>
+
+<script>
+    new WOW().init(); /*wow 실행문*/
+</script>
+
+          <style>
+              
+              h1{width: 100px; height: 100px; background: orange;
+                /*position: absolute;  left: 50%; top: 50%; margin-left: -50px;*/}
+
+
+       
+            .container{width: 1000px; margin: 0 auto;}
+            .container li{
+                float: left; width:calc( (100% - 40px ) / 5); 
+                background:chartreuse; margin-right:5px; height: 150px;
+                display: flex;justify-content:center; align-items:center;
+                border-radius: 19px;
+
+                }
+             .test li:last-child{margin-left:0;}
+          </style>
+    </head>
+
+<body>
+    
+    <h1 class="wow fadeInDown"></h1>
+
+
+    <div style="height:2000px"></div>  
+    <div class="container">
+        <ul class="clearfix">
+            <li class="wow fadeInDown" data-wow-delay="0">1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+       
+        </ul>
+    </div>
+
+
+    
+        <div class="container">
+            <h2 class="wow fadeInLeft" data-wow-delay="0.5s">Lorem, ipsum.</h2>
+            <p class="wow fadeInLeft" data-wow-delay="1s">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, neque!</p>
+        </div>
+        <div style="height:2000px"></div>
+    
+</body>
+</html>
