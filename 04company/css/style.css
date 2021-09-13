@@ -32,7 +32,7 @@ html,body{height: 100%;}
     background: white;
 }
 
-
+/* pc media */
 @media screen and ( min-width:700px ){
     #main_header{height: 1950px;background: #ddd;}
 
@@ -66,7 +66,7 @@ html,body{height: 100%;}
     
 } /* pc media */
 
-
+/* mobile media */
 @media screen and ( max-width:699px ){
     #main_header{background: #ddd;}
 
