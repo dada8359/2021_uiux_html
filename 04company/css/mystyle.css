@@ -1,0 +1,14 @@
+@charset "utf-8";
+html,body{height: 100%;} /*100으로 설정해도 문제없어*/
+/*공통영역*/
+
+/*pc영역*/
+@media screen and ( min-width:700px ){
+    #main_header{
+        height: 1930px;
+        background: gray;
+        position: relative;
+    }
+}
+
+/*pc영역 끝*/
