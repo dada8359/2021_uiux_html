@@ -5,11 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+      
+    </style>
 </head>
 <body>
-    <script>
-        // const city = [];
-        const city = new Arra("서울","부산","대구");
-    </script>
+   <script>
+       const printArr = new Arry("서울","부산","대구","인천");
+      
+       function print(){
+
+           Let sum = "";
+           for(Let i=0;i<printArr.length;i++){
+              
+               sum = sum + printArr[i]
+           }
+        //    document.write(sum);
+        // document.getElementsByClassName("box")[0].innerHTML = sum;
+        // document.querySelector(".box").innerHTML = sum;
+
+        const boxDiv = document.getElementsByClassName("box");
+
+            for(Let i=0;i<boxDiv.length;i++){
+                console.log(i);
+                boxDiv[i].innerHTML =
+            }
+       }
+       //print()
+   </script>
+
+   <div class="box"></div>
+   <div class="box"></div>
+   <div class="box"></div>
+   <div class="box"></div>
+   <dutton onclick="print()">도시</dutton>
+
+   <script>
+       const arrdata = [];
+       Let sum = 0;//총합을 저장
+       for(Let i=0;i<=99;i++){
+           arrdata[i]= i + 1;
+       }
+
+       for(Let i=0;i<arrdata.length;i++){
+           document.write(arrdata[i]+" ")
+       }
+
+       for(Let i=0;i<arrdata.length;i++){
+            // sum = sum + arrdata[i];
+            sum += arrdata[i];
+       }
+
+       document.write(sum);
+       Let num = 1;
+       Let string ="han"
+   </script>
 </body>
 </html>
