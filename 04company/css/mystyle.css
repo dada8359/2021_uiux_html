@@ -38,7 +38,7 @@ body{
     font-style:italic;
     color: white;
 }
-/*pc영역*/
+/******pc영역*******/
 @media screen and ( min-width:700px ){
     #main_header{
         height: 1930px;
@@ -69,7 +69,9 @@ body{
         display: block; 
         text-align: center;
         padding: 0 30px;
-        line-height: 45px;      
+        line-height: 45px;  
+        font-size: 18px;
+        color: white;    
     }
     .toggle{display: none;}/*pc에는 토글 필요읎어*/
     
@@ -94,7 +96,37 @@ body{
     }
 
 
+/******mobile영역*******/
 
+@media screen and ( max-width:699px ){
+    #main_header{background: #ddd;}
+
+    #header_top{
+        background: pink;
+        padding: 0 16px;
+        z-index:99999;
+        position: fixed;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+    }
+    
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
 
 
 
