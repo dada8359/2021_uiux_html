@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    const slider1 = $(".slider").bxSlider({
+   $(".slider").bxSlider({
         controls:false
     });
    

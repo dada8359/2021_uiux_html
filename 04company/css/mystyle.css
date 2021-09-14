@@ -7,14 +7,6 @@ html,body{height: 100%;} /*100으로 설정해도 문제없어*/
     padding:0 10px;
 }
 
-.bx-wrapper {
-    -moz-box-shadow: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    border: 0 none;
-    margin-bottom: 0;
-}
-
 /*pc영역*/
 @media screen and ( min-width:700px ){
     #main_header{
