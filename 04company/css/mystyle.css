@@ -128,7 +128,7 @@ body{
     .toggle{
         width: 40px;
         height: 40px;
-        background: black;
+        background: rgb(160, 102, 102);
         position: relative;
     }
     .toggle div{ /*토글바 3개짜리 만드는거야*/
@@ -140,12 +140,24 @@ body{
         top:50%;/*위에서 50%만큼*/
         transform: translate(-50%,-50%);/* x축-50%,y축-50% */
         border-radius:2px;
-        transition:0.3s;
+        transition:0.3s;/*애니메이션느낌*/
         cursor:pointer;
     }
     .toggle .bar1{top:10px;}
     .toggle .bar3{top:30px}
-   
+    .toggle.active .bar1{
+        top:50%;
+        transform:translate(-50%,-50%)
+        rotate(45deg)
+    }
+    .toggle.active .bar2{
+        opacity:0
+    }
+    .toggle.active .bar3{
+        top:50%;
+        transform:translate(-50%,-50%)
+        rotate(-45deg)
+    }
 
 
 
