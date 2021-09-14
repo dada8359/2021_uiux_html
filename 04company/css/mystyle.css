@@ -9,6 +9,56 @@ html,body{height: 100%;} /*100으로 설정해도 문제없어*/
         background: gray;
         position: relative;
     }
+    
+    #header_top{
+        width: 1240px;
+        background-color: green;
+        position: fixed; /*스크린의 뷰포트(viewport)를 기준으로 한 위치에 배치, 스크롤되어도 움직이지 않는 고정된 자리를 갖음*/
+        left: 50%;
+        transform: translateX(-50%); /*left:50%,translateX:-50% 가운데 정렬*/
+        top:20px;
+        display: flex;/*개구리소환! 레이아웃배치기능*/
+        justify-content: space-between;/*flex의 속성,양끝에 붙는다*/
+        align-items: center;
+    }
+
+    #header_top .gnb{
+        background-color: mediumseagreen;
+    }
+    #header_top .gnb li{
+        float: left;
+    }
+    #header_top .gnb li a{
+        display: block; 
+        text-align: center;
+        padding: 0 30px;
+        line-height: 45px;      
+    }
+    .toggle{display: none;}/*pc에는 토글 필요읎어*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 /*pc영역 끝*/
