@@ -1,6 +1,19 @@
 @charset "utf-8";
-html,body{height: 100%;} /*100으로 설정해도 문제없어*/
 /*공통영역*/
+html,body{height: 100%;} /*100으로 설정해도 문제없어*/
+#header_top .logo{
+    background: chocolate;
+    height: 50px;
+    padding:0 10px;
+}
+
+.bx-wrapper {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 0 none;
+    margin-bottom: 0;
+}
 
 /*pc영역*/
 @media screen and ( min-width:700px ){
@@ -20,7 +33,8 @@ html,body{height: 100%;} /*100으로 설정해도 문제없어*/
         display: flex;/*개구리소환! 레이아웃배치기능*/
         justify-content: space-between;/*flex의 속성,양끝에 붙는다*/
         align-items: center;
-    }
+        z-index: 1; /*해당개체가 다른개체에게 먹히지않게 첫번째로!*/
+    } 
 
     #header_top .gnb{
         background-color: mediumseagreen;
@@ -35,9 +49,26 @@ html,body{height: 100%;} /*100으로 설정해도 문제없어*/
         line-height: 45px;      
     }
     .toggle{display: none;}/*pc에는 토글 필요읎어*/
-
-
-
+    
+    /*slider안에 있는 이미지 크기를 설정하자*/
+    .sliderWrap .li_1st,
+    .sliderWrap .li_2st{
+        height: 1000px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+   
+    /*sldier li에 이미지를 삽입하자*/
+    .sliderWrap .li_1st{
+        background-image: url(../images/business1\ 1.png);
+    }
+    .sliderWrap .li_2st{
+        background-image: url(../images/business1\ 1-1.png);
+    }
+    .bx-wrapper .bx-pager{
+        bottom: 400px;
+    }
 
 
 
