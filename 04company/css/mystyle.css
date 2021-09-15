@@ -5,7 +5,7 @@ body{
     font-family: 'Noto Sans KR', sans-serif;
 }
 #header_top .logo{
-    background: chocolate;
+    _background: chocolate;
     height: 50px;
     padding:0 10px;
 }
@@ -21,24 +21,45 @@ body{
 .sliderWrap .sliderTxt{
         position: absolute;
         left: 50%;
-        top: 30%;
+        top: 40%;
         transform: translate(-50%,-50%);/*가운데로 옮기기*/
         width: 1000px;text-align: center;
         _background-color: violet;    
     }
 .sliderWrap .sliderTxt p{
-    font-size: 1em;
+    font-size: 1.5em;
     line-height: 50px;
     font-weight: 500;
     color:white
 }    
 .sliderWrap .sliderTxt h3{
-    font-size: 5em;  
+    font-size: 7.5em;  
     font-weight:900;
     font-style:italic;
     color: white;
+    
 }
 
+.sliderWrap .bx-wrapper .bx-pager.bx-default-pager a{
+    background: #101c2a;
+}
+.sliderWrap .bx-wrapper .bx-pager.bx-default-pager a.active{
+    background: #050e18;width: 35px;height: 10px;
+}
+
+.sliderWrap .bx-wrapper .bx-pager.bx-default-pager a:hover{
+    background: rgb(148, 148, 148);
+}
+
+.content>ul>li{
+    float: left; 
+    width: 25%; 
+    background-color:orange;
+    height: 310px;
+}
+.content>ul>li:nth-child(2n){
+    background: skyblue;
+}
 /******pc영역*******/
 @media screen and ( min-width:700px ){
     #main_header{
@@ -49,7 +70,7 @@ body{
     
     #header_top{
         width: 1240px;
-        background: green;
+        _background: green;
         position: fixed; /*스크린의 뷰포트(viewport)를 기준으로 한 위치에 배치, 스크롤되어도 움직이지 않는 고정된 자리를 갖음*/
         left: 50%;
         transform: translateX(-50%); /*left:50%,translateX:-50% 가운데 정렬*/
@@ -61,7 +82,7 @@ body{
     } 
 
     #header_top .gnb{
-        background: mediumseagreen;
+        _background: mediumseagreen;
     }
     #header_top .gnb li{
         float: left;
@@ -92,10 +113,17 @@ body{
     .sliderWrap .li_2st{
         background-image: url(../images/business1\ 1-1.png);
     }
+    
     .bx-wrapper .bx-pager{
-        bottom: 400px;
+       top:600px;
     }
-
+    .content{
+        width: 1240px;
+        position: absolute; 
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 490px;
+    } 
 } /* pc end */
 
 /******mobile영역*******/
@@ -158,11 +186,32 @@ body{
         transform:translate(-50%,-50%)
         rotate(-45deg)
     }
+    
+    .sliderWrap .li_1st,.sliderWrap .li_2st{
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
 
+    .sliderWrap .li_1st{
+        background-image: url(../images/business1\ 1.png);
+    }
+    .sliderWrap .li_2st{
+        background-image:url(../images/business1\ 1-1.png);
+    }
 
+    .sliderWrap .sliderTxt{
+        width: 500px;
+        top:50%;
+    }
 
-
-
+    .sliderWrap .sliderTxt h3{
+        font-size: 3.5em;
+    }
+    .bx-wrapper .bx-pager{
+       top: 530px;
+    }
 } /* mobile end */
 
 
