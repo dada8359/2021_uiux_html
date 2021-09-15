@@ -62,9 +62,7 @@ body{
     background: skyblue;
 }
 
-.content>ul>li:nth-child(1) .txt1{
-    color: white;
-}
+.content>ul>li:nth-child(1) .txt1{}
 
 
 
