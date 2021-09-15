@@ -5,7 +5,7 @@ body{
     font-family: 'Noto Sans KR', sans-serif;
 }
 #header_top .logo{
-    _background: chocolate;
+    background: chocolate;
     height: 50px;
     padding:0 10px;
 }
@@ -24,7 +24,7 @@ body{
         top: 40%;
         transform: translate(-50%,-50%);/*가운데로 옮기기*/
         width: 1000px;text-align: center;
-        _background-color: violet;    
+        background-color: violet;    
     }
 .sliderWrap .sliderTxt p{
     font-size: 1.5em;
@@ -51,7 +51,7 @@ body{
     background: rgb(148, 148, 148);
 }
 
-
+/* 
 .content>ul>li{
     float: left; 
     width: 25%; 
@@ -100,7 +100,7 @@ body{
     width: 480px;
     height: 276px;
 }
-
+ */
 
 
 /******pc영역*******/
@@ -113,7 +113,7 @@ body{
     
     #header_top{
         width: 1240px;
-        _background: green;
+        background: green;
         position: fixed; /*스크린의 뷰포트(viewport)를 기준으로 한 위치에 배치, 스크롤되어도 움직이지 않는 고정된 자리를 갖음*/
         left: 50%;
         transform: translateX(-50%); /*left:50%,translateX:-50% 가운데 정렬*/
@@ -125,7 +125,7 @@ body{
     } 
 
     #header_top .gnb{
-        _background: mediumseagreen;
+        background: mediumseagreen;
     }
     #header_top .gnb li{
         float: left;
@@ -161,7 +161,7 @@ body{
        top:600px;
     }
  
-   .content{
+   /* .content{
         width: 1241px;
         height: 551px;
         background-color: rgb(83, 83, 83);
@@ -169,7 +169,8 @@ body{
         left: 50%;
         transform: translateX(-50%);
         bottom: 680px;
-    }
+    } */
+
 } /* pc end */
 
 /******mobile영역*******/

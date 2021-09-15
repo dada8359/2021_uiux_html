@@ -17,10 +17,7 @@ $(document).ready(function(){
         }
     });
 
-    // $(window).resize(function(){
-    //     $(".toggle").removeClass("active");
-    //     $(".gnb").removeClass("view");
-    // });
+   
     
    
 });
