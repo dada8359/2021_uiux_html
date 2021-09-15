@@ -201,6 +201,19 @@ body{
     #header_top .gnb.view{
         top: 0;
     }
+    #header_top .gnb{
+        background-color: violet;
+    }
+    #header_top .gnb a{
+        line-height: 40px;
+        background: orange;
+        width: 200px;
+        display: block;
+        font-size: 1.5em;
+        font-weight:bold;
+ 
+    }
+    #header_top .gnb li{margin-bottom:55px;}
     .toggle{display: block;}
     .toggle{
         width: 40px;
@@ -230,6 +243,7 @@ body{
     .toggle.active .bar2{
         opacity:0
     }
+    
     .toggle.active .bar3{
         top:50%;
         transform:translate(-50%,-50%)
