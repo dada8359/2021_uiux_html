@@ -91,11 +91,14 @@ body{
     left:61.4%;
     bottom:553px;
     width: 479px;
-   
+    height: 276px;
     }
 .content>ul>li:nth-child(7){
     position: relative;
-    
+    left:22.7%;
+    bottom:276px;
+    width: 480px;
+    height: 276px;
 }
 
 
@@ -160,11 +163,12 @@ body{
  
    .content{
         width: 1241px;
+        height: 551px;
         background-color: rgb(83, 83, 83);
         position: absolute; 
         left: 50%;
         transform: translateX(-50%);
-        bottom: -350px;
+        bottom: 680px;
     }
 } /* pc end */
 
