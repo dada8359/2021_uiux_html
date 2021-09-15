@@ -209,11 +209,11 @@ body{
         background: orange;
         width: 200px;
         display: block;
-        font-size: 1.5em;
-        font-weight:bold;
+        font-size: 1em;
+        margin-top: 55px;
  
     }
-    #header_top .gnb li{margin-bottom:55px;}
+    #header_top .gnb li{margin-bottom:35px;}
     .toggle{display: block;}
     .toggle{
         width: 40px;
