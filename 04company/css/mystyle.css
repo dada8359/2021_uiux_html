@@ -206,14 +206,15 @@ body{
     }
     #header_top .gnb a{
         line-height: 40px;
-        background: orange;
         width: 200px;
         display: block;
         font-size: 1em;
         margin-top: 55px;
+        text-align: center;
+        font-size: 1.5em;
  
     }
-    #header_top .gnb li{margin-bottom:35px;}
+    #header_top .gnb li{margin-bottom:15px;}
     .toggle{display: block;}
     .toggle{
         width: 40px;
