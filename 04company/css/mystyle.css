@@ -55,8 +55,8 @@ body{
 .content>ul>li{
     float: left; 
     width: 25%; 
-    background-color:orange;
-    height: 310px;
+    background-color:#0070C3;
+    height: 311px;
 }
 .content>ul>li:nth-child(2n){
     background: skyblue;
@@ -66,10 +66,10 @@ body{
 .content>ul>li:nth-child(2){
     width: 75%; 
     height:622px; 
-    background-color:green;
+    background-color:#d1c959;
 }
 .content>ul>li:nth-child(3){
-    background-color: midnightblue; 
+    background-color: #004B9E; 
     position: relative; 
     bottom: 310px;
 }
@@ -168,7 +168,7 @@ body{
         position: absolute; 
         left: 50%;
         transform: translateX(-50%);
-        bottom: 680px;
+        bottom: 690px;
     } 
 
 } /* pc end */
