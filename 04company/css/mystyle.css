@@ -51,7 +51,7 @@ body{
     background: rgb(148, 148, 148);
 }
 
-/* 
+
 .content>ul>li{
     float: left; 
     width: 25%; 
@@ -100,7 +100,7 @@ body{
     width: 480px;
     height: 276px;
 }
- */
+ 
 
 
 /******pc영역*******/
@@ -161,7 +161,7 @@ body{
        top:600px;
     }
  
-   /* .content{
+    .content{
         width: 1241px;
         height: 551px;
         background-color: rgb(83, 83, 83);
@@ -169,7 +169,7 @@ body{
         left: 50%;
         transform: translateX(-50%);
         bottom: 680px;
-    } */
+    } 
 
 } /* pc end */
 
@@ -179,7 +179,7 @@ body{
     #main_header{background: rgb(122, 63, 63);}
 
     #header_top{
-        background: pink;
+        background: rgb(0, 0, 0,0.2);
         padding: 0 16px;
         z-index:99999;/*ttoggle을 앞으로 보내자*/
         position: fixed;
