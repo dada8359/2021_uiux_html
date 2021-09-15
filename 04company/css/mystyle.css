@@ -51,6 +51,7 @@ body{
     background: rgb(148, 148, 148);
 }
 
+
 .content>ul>li{
     float: left; 
     width: 25%; 
@@ -60,6 +61,45 @@ body{
 .content>ul>li:nth-child(2n){
     background: skyblue;
 }
+
+.content>ul>li:nth-child(1){}
+.content>ul>li:nth-child(2){
+    width: 75%; 
+    height:622px; 
+    background-color:green;
+}
+.content>ul>li:nth-child(3){
+    background-color: midnightblue; 
+    position: relative; 
+    bottom: 310px;
+}
+.content>ul>li:nth-child(4){
+    background-color: rgb(191, 230, 230);
+     position: relative;
+     height: 551px; 
+     right:310px;
+    }
+.content>ul>li:nth-child(5){
+    background: tomato;
+    width: 450.4px; 
+    height: 553px;
+    position: relative;
+    right:310px;
+}
+.content>ul>li:nth-child(6){
+    position: relative;
+    left:61.4%;
+    bottom:553px;
+    width: 479px;
+   
+    }
+.content>ul>li:nth-child(7){
+    position: relative;
+    
+}
+
+
+
 /******pc영역*******/
 @media screen and ( min-width:700px ){
     #main_header{
@@ -117,13 +157,15 @@ body{
     .bx-wrapper .bx-pager{
        top:600px;
     }
-    .content{
-        width: 1240px;
+ 
+   .content{
+        width: 1241px;
+        background-color: rgb(83, 83, 83);
         position: absolute; 
         left: 50%;
         transform: translateX(-50%);
-        bottom: 490px;
-    } 
+        bottom: -350px;
+    }
 } /* pc end */
 
 /******mobile영역*******/
