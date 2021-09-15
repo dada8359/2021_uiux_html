@@ -198,7 +198,9 @@ body{
         display: flex;
         justify-content: center;/*flex의 가운데 속성*/
     }
-    
+    #header_top .gnb.view{
+        top: 0;
+    }
     .toggle{display: block;}
     .toggle{
         width: 40px;
