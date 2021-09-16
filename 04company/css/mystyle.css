@@ -346,7 +346,13 @@ body{
         
     }
     .content>ul>li:nth-child(7){
-        display: none;
+        background: #171717;
+        position: absolute;
+        top: 1088px;
+        height: 246px;
+        width: 689px;
+        margin: 0 auto;
+        left: -1px;
     }
 
 } /* mobile end */
