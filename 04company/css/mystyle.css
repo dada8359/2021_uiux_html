@@ -366,10 +366,28 @@ body{
         left: 40px;
         color:white;
     } 
-
-    .content>ul>li:nth-child(7){
-        
-       
+    .content>ul>li:nth-child(6) .conB6{
+        position: absolute;
+        left: 320px;
+        top: 150px;
+    }
+    .content>ul>li:nth-child(7) .txt7{
+        position: absolute;        
+        _background-color: pink;
+        font-size:34px;
+        font-weight:normal;
+        top:80px;
+        left: 40px;
+        color:white;
+    } 
+    .content>ul>li:nth-child(7) .txt7_1{   
+        position: absolute;        
+        _background-color: pink;
+        font-size:20px;
+        font-weight:lighter;
+        top:150px;
+        left: 40px;
+        color:white;
     } 
 
 } /* pc end */
