@@ -185,7 +185,7 @@ body{
         position: absolute;
         _background-color:pink;
         font-size:18px;
-        font-weight:bold;
+        font-weight:normal;
         top: 30px;
         left: 30px;
         color:white;
@@ -194,7 +194,7 @@ body{
         position: absolute;        
         _background-color: pink;
         font-size:25px;
-        font-weight: bold;
+        font-weight:normal;
         top:180px;
         left: 30px;
         color:white;
@@ -209,6 +209,11 @@ body{
         left: 30px;
         color:white;
        
+    }
+
+    .content>ul>li:nth-child(2){
+        background-image: url(../images/movie\ pic.png);
+        background-size: cover;
     }
 
     /**/
