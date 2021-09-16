@@ -177,6 +177,12 @@ body{
         bottom: 690px;
     } 
 
+    .content>ul>li:nth-child(1) .txt1{
+        background-color:pink;
+        font-size:20px;
+        font-weight:bold;
+    }
+
 } /* pc end */
 
 /******mobile영역*******/
@@ -308,6 +314,8 @@ body{
         width: 349.5px;
         height: 304px;
     }
+
+   
     .content>ul>li:nth-child(2){display: none;}
     .content>ul>li:nth-child(3){
         position: absolute;
