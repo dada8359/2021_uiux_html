@@ -339,15 +339,37 @@ body{
         left: 40px;
         color:#444444;
     }
-
+     
+    .content>ul>li:nth-child(6) {
+        background: #2D2D2D;
+        position: relative;
+        left: 61.4%;
+        bottom: 553px;
+        width: 479px;
+        height: 286px;
+    }
     .content>ul>li:nth-child(6) .txt6{
         position: absolute;        
         _background-color: pink;
         font-size:34px;
         font-weight:normal;
-        top:70px;
+        top:80px;
         left: 40px;
         color:white;
+    } 
+    .content>ul>li:nth-child(6) .txt6_1{
+        position: absolute;        
+        _background-color: pink;
+        font-size:20px;
+        font-weight:lighter;
+        top:150px;
+        left: 40px;
+        color:white;
+    } 
+
+    .content>ul>li:nth-child(7){
+        
+       
     } 
 
 } /* pc end */
