@@ -369,14 +369,14 @@ body{
     .content>ul>li:nth-child(6) .conB6{
         position: absolute;
         left: 320px;
-        top: 150px;
+        top: 130px;
     }
     .content>ul>li:nth-child(7) .txt7{
         position: absolute;        
         _background-color: pink;
         font-size:34px;
         font-weight:normal;
-        top:80px;
+        top:90px;
         left: 40px;
         color:white;
     } 
@@ -385,11 +385,15 @@ body{
         _background-color: pink;
         font-size:20px;
         font-weight:lighter;
-        top:150px;
+        top:160px;
         left: 40px;
         color:white;
     } 
-
+    .content>ul>li:nth-child(7) .conB7{
+        position: absolute;
+        left: 320px;
+        top: 130px;
+    }
 } /* pc end */
 
 /******mobile영역*******/
