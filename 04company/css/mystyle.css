@@ -725,13 +725,7 @@ body{
     }
 
     .content>ul>li:nth-child(5) .txt5_2{
-        position: absolute;
-        background-color:pink;
-        font-size:18px;
-        font-weight:normal;
-       ;
-        left: 40px;
-        color:#444444;
+       display: none;
     }
      
     .content>ul>li:nth-child(6) {
