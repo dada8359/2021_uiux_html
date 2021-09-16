@@ -242,7 +242,24 @@ body{
        
     }
 
+    .content>ul>li:nth-child(4) .txt4{
+        position: absolute;
+        _background-color:pink;
+        font-size:38px;
+        top: 150px;
+        left: 30px;
+        color:white;
+    }
 
+    .content>ul>li:nth-child(4) .txt4_1{
+        position: absolute;
+        _background-color:pink;
+        font-size:18px;
+        font-weight:bold;
+        top:500px;
+        left: 30px;
+        color:white;
+    }
 
     .content>ul>li:nth-child(1){
         height: 321px;
