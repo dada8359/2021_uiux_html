@@ -333,7 +333,13 @@ body{
         left: -1px;
     }
     .content>ul>li:nth-child(6){
-        display: none;
+        background:#2D2D2D;
+        position: absolute;
+        top: 850px;
+        height: 246px;
+        width: 689px;
+        margin: 0 auto;
+        left: -1px;
         
     }
     .content>ul>li:nth-child(7){
