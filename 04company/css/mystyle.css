@@ -340,6 +340,16 @@ body{
         color:#444444;
     }
 
+    .content>ul>li:nth-child(6) .txt6{
+        position: absolute;        
+        _background-color: pink;
+        font-size:34px;
+        font-weight:normal;
+        top:70px;
+        left: 40px;
+        color:white;
+    } 
+
 } /* pc end */
 
 /******mobile영역*******/
