@@ -371,6 +371,14 @@ body{
         left: 320px;
         top: 130px;
     }
+    .content>ul>li:nth-child(7) {
+        background-color: #171717;
+        position: relative;
+        left: 22.8%;
+        bottom: 276px;
+        width: 480px;
+        height: 276px;
+    }
     .content>ul>li:nth-child(7) .txt7{
         position: absolute;        
         _background-color: pink;
