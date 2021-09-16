@@ -501,6 +501,8 @@ body{
 
     .sliderWrap .li_1st{
         background-image: url(../images/business1\ 1.png);
+        background-size: cover;
+        background-position: center;
     }
     .sliderWrap .li_2st{
         background-image:url(../images/business1\ 1-1.png);
@@ -519,18 +521,17 @@ body{
     }
 
     .content{
-        width:699px;
-        height: 1344px;
+        
         position: relative;
         background-color: greenyellow;
-        margin: 0 auto;
+        width: 100%;
     }
    
     .content>ul>li:nth-child(1){
         position: absolute;
         left: 338px;
         top:-1px;
-        width: 349.5px;
+        width: 304px;
         height: 304px;
     }
 
