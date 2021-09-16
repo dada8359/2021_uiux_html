@@ -178,8 +178,9 @@ body{
         bottom: 310px;
         position: relative;
     } 
+
     .content>ul>li:nth-child(1){
-        height: 311px;
+        height: 321px;
     }
     .content>ul>li:nth-child(1) .txt1{
         position: absolute;
@@ -301,9 +302,7 @@ body{
         color:white;
     }
 
-    .content>ul>li:nth-child(1){
-        height: 321px;
-    }
+   
 
 } /* pc end */
 
