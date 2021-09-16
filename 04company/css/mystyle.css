@@ -174,13 +174,15 @@ body{
         position: absolute; 
         left: 50%;
         transform: translateX(-50%);
-        bottom: 690px;
+        bottom: 310px;
+        position: relative;
     } 
 
     .content>ul>li:nth-child(1) .txt1{
         background-color:pink;
         font-size:20px;
         font-weight:bold;
+        top: 30px;
     }
 
 } /* pc end */
