@@ -82,6 +82,7 @@ body{
      position: relative;
      height: 551px; 
      right:310px;
+     background-image: url(../images/content04.png);
     }
 .content>ul>li:nth-child(5){
     background: #F5F5F5;
@@ -395,7 +396,9 @@ body{
         left: -40px;
        
     }
-    .content>ul>li:nth-child(4) img{
+    .content>ul>li:nth-child(4) {
+        background-image: url(../images/content04.png);
+        background-size: cover;
         width: 378px;
     }
     .content>ul>li:nth-child(5){
