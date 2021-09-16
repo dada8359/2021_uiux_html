@@ -215,13 +215,31 @@ body{
         background-image: url(../images/movie\ pic.png);
         background-size: cover;
     }
+    .content>ul>li:nth-child(2) .txt2{
+        position: absolute;
+        _background-color:pink;
+        font-size:25px;
+        font-weight:normal;
+        color:white;
+        top:180px;
+        left: 430px;
+    }
+    .content>ul>li:nth-child(2) .txt2_2{
+        position: absolute;        
+        _background-color: pink;
+        font-size:16px;
+        font-weight:normal;
+        top:230px;
+        left:430px;
+        color:white;
+    }
 
     /**/
     .content>ul>li:nth-child(3) .txt3{
         position: absolute;
         _background-color:pink;
         font-size:18px;
-        font-weight:bold;
+        font-weight:normal;
         top: 30px;
         left: 30px;
         color:white;
@@ -230,7 +248,7 @@ body{
         position: absolute;        
         _background-color: pink;
         font-size:25px;
-        font-weight:700;
+        font-weight:normal;
         top:180px;
         left: 30px;
         color:white;
