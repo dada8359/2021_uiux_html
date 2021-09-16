@@ -400,6 +400,7 @@ body{
         background-image: url(../images/content04.png);
         background-size: cover;
         width: 378px;
+        height: 607px;
     }
     .content>ul>li:nth-child(5){
         background:#F5F5F5;
