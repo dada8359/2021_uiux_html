@@ -194,7 +194,7 @@ body{
     .content>ul>li:nth-child(1) .txt1_1{
         position: absolute;        
         _background-color: pink;
-        font-size:25px;
+        font-size:30px;
         font-weight:normal;
         top:180px;
         left: 30px;
@@ -205,7 +205,7 @@ body{
         position: absolute;        
         _background-color: pink;
         font-size:16px;
-        font-weight:normal;
+        font-weight:lighter;
         top:230px;
         left: 30px;
         color:white;
@@ -229,7 +229,7 @@ body{
         position: absolute;        
         _background-color: pink;
         font-size:16px;
-        font-weight:normal;
+        font-weight: lighter;
         top:230px;
         left:430px;
         color:white;
@@ -265,9 +265,9 @@ body{
     .content>ul>li:nth-child(3) .txt3_1{
         position: absolute;        
         _background-color: pink;
-        font-size:25px;
+        font-size:30px;
         font-weight:normal;
-        top:180px;
+        top:160px;
         left: 30px;
         color:white;
        
@@ -276,10 +276,10 @@ body{
         position: absolute;        
         _background-color: pink;
         font-size:16px;
-        font-weight:normal;
-        top:230px;
+        top:210px;
         left: 30px;
         color:white;
+        font-weight: lighter;
        
     }
 
@@ -311,7 +311,6 @@ body{
         top:150px;
         left: 30px;
         color:#444444;
-
     } 
 
 } /* pc end */
