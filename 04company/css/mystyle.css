@@ -305,13 +305,25 @@ body{
 
     .content>ul>li:nth-child(5) .txt5{
         position: absolute;        
-        background-color: pink;
-        font-size:30px;
+        _background-color: pink;
+        font-size:34px;
         font-weight:normal;
         top:150px;
-        left: 30px;
+        left: 40px;
         color:#444444;
     } 
+
+    .content>ul>li:nth-child(5) .txt5_1{
+        position: absolute;        
+        _background-color: pink;
+        font-size:20px;
+        font-weight:normal;
+        top:350px;
+        left: 40px;
+        color:#444444;
+    } 
+    
+    
 
 } /* pc end */
 
