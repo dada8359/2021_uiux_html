@@ -421,7 +421,7 @@ body{
     #main_header{
         background: rgb(122, 63, 63);
          }
-
+    
     #header_top{
         background: rgb(0, 0, 0,0.2);
         padding: 0 16px;
@@ -504,7 +504,7 @@ body{
         transform:translate(-50%,-50%)
         rotate(-45deg)
     }
-    
+     .sliderWrap .slider{width: 100%;} /*테스트*/
     .sliderWrap .li_1st,.sliderWrap .li_2st{
         height: 100vh;
         background-repeat: no-repeat;
