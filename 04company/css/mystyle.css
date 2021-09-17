@@ -107,7 +107,13 @@ body{
     height: 276px;
 }
  
-
+.container{
+    background-color: cadetblue;
+}
+.container .section{
+    
+    background-color: cornflowerblue;
+}
 
 /******pc영역*******/
 @media screen and ( min-width:700px ){
@@ -422,6 +428,8 @@ body{
         left: 320px;
         top: 130px;
     }
+
+
 } /* pc end */
 
 /******mobile영역*******/

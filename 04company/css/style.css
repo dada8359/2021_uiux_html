@@ -88,7 +88,7 @@ html,body{height: 100%;}
     display: flex;
 }
 
-.container{
+/* .container{
     background: url(../images/contentsbg01.jpg) no-repeat center fixed;
     background-size: cover;
     padding: 60px 0;
@@ -114,7 +114,7 @@ html,body{height: 100%;}
     box-shadow:5px 5px 10px rgba(0,0,0,0.5);
     transform:translate(0,-15px)
 }
-
+ */
 
 
 @media screen and ( min-width:700px ){
