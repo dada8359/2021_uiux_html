@@ -211,7 +211,6 @@ body{
         color:white;
        
     }
-
     .content>ul>li:nth-child(2){
         background-image: url(../images/movie\ pic.png);
         background-size: cover;
@@ -357,8 +356,7 @@ body{
         background: #2D2D2D;
         position: relative;
         left: 61.4%;
-        bottom: 553px;
-        
+        bottom: 553px;      
         height: 286px;
     }
     .content>ul>li:nth-child(6) .txt6{
