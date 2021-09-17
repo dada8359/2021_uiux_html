@@ -418,7 +418,9 @@ body{
 /******mobile영역*******/
 
 @media screen and ( max-width:699px ){
-    #main_header{background: rgb(122, 63, 63);}
+    #main_header{
+        background: rgb(122, 63, 63);
+         width: 539px;}
 
     #header_top{
         background: rgb(0, 0, 0,0.2);
