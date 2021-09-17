@@ -40,16 +40,15 @@ body{
     
 }
 
-.sliderWrap .bx-wrapper .bx-pager.bx-default-pager a{
+/* .sliderWrap .bx-wrapper .bx-pager.bx-default-pager a{
     background: #101c2a;
 }
 .sliderWrap .bx-wrapper .bx-pager.bx-default-pager a.active{
     background: #050e18;width: 35px;height: 10px;
 }
-
 .sliderWrap .bx-wrapper .bx-pager.bx-default-pager a:hover{
     background: rgb(148, 148, 148);
-}
+} */
 
 
 .content>ul>li{
@@ -167,7 +166,17 @@ body{
     .bx-wrapper .bx-pager{
        top:600px;
     }
- 
+    .sliderWrap .bx-wrapper .bx-pager.bx-default-pager a{
+        background: #101c2a;
+    }
+    .sliderWrap .bx-wrapper .bx-pager.bx-default-pager a.active{
+        background: #050e18;width: 35px;height: 10px;
+    }
+    
+    .sliderWrap .bx-wrapper .bx-pager.bx-default-pager a:hover{
+        background: rgb(148, 148, 148);
+    }
+    
     .content{
         width: 1241px;
         height: 551px;
@@ -504,14 +513,17 @@ body{
         transform:translate(-50%,-50%)
         rotate(-45deg)
     }
-     .sliderWrap .slider{width: 100%;} /*테스트*/
+    .sliderWrap .slider{width: 100%;} /*테스트*/
     .sliderWrap .li_1st,.sliderWrap .li_2st{
         height: 100vh;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
     }
-
+    .bx-wrapper .bx-pager {
+        display: none;
+    }
+     /*점박이*/
     .sliderWrap .li_1st{
         background-image: url(../images/business1\ 1.png);
         background-size: cover;
@@ -531,9 +543,7 @@ body{
     .sliderWrap .sliderTxt h3{
         font-size: 3.5em;
     }
-    .bx-wrapper .bx-pager{
-       top: 500px;
-    }
+  
 
     .content{
         
@@ -541,7 +551,7 @@ body{
         background-color: greenyellow;
         width: 100%; 
     }
-   
+     
     /* .content>ul>li:nth-child(1){
         position: absolute;
         left: 338px;
@@ -553,7 +563,7 @@ body{
         position: absolute;
         left: 252px;
         top: -1px;
-        width: 285px;
+        width: 351px;
         height: 304px;
     }
    
@@ -570,7 +580,7 @@ body{
         position: absolute;
         left: 252px;
         top: 302px;
-        width: 285px;
+        width: 351px;
         height: 304px;
     }
 
@@ -590,7 +600,7 @@ body{
     position: absolute;
     top: 605px;
     height: 246px;
-    width: 539px;
+    width: 605px;
     margin: 0 auto;
     left: -1px;
     }
@@ -615,7 +625,7 @@ body{
         position: absolute;
         top: 1130px;
         height: 246px;
-        width: 539px;
+        width: 605px;
         margin: 0 auto;
         left: -1px;
     }
@@ -775,7 +785,7 @@ body{
         background: #2D2D2D;
         position: relative;
         bottom: 553px;
-        width: 539px;
+        width: 605px;
         height: 286px;
     }
     .content>ul>li:nth-child(6) .txt6{
@@ -825,19 +835,3 @@ body{
         top: 90px;
     }
 } /* mobile end */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
