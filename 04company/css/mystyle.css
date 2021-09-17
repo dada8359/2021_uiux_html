@@ -538,23 +538,36 @@ body{
         width: 100%;
     }
    
-    .content>ul>li:nth-child(1){
+    /* .content>ul>li:nth-child(1){
         position: absolute;
         left: 338px;
         top:-1px;
         width: 304px;
         height: 304px;
+    } */
+    .content>ul>li:nth-child(1) {
+        position: absolute;
+        left: 252px;
+        top: -1px;
+        width: 285px;
+        height: 304px;
     }
-
    
     .content>ul>li:nth-child(2){display: none;}
-    .content>ul>li:nth-child(3){
+    /* .content>ul>li:nth-child(3){
         position: absolute;
         left: 338px;
         top:302px;
         width:304px;
         height: 303.9px;
    
+    } */
+    .content>ul>li:nth-child(3) {
+        position: absolute;
+        left: 252px;
+        top: 302px;
+        width: 285px;
+        height: 304px;
     }
 
     .content>ul>li:nth-child(4){
@@ -565,18 +578,25 @@ body{
     .content>ul>li:nth-child(4) {
         background-image: url(../images/content04.png);
         background-size: cover;
-        width: 378px;
+        width: 300px;
         height: 607px;
     }
-    .content>ul>li:nth-child(5){
-        background:#F5F5F5;
-        position: absolute;
-        top: 605px;
-        height: 246px;
-        width: 645px;
-        margin: 0 auto;
-        left: -1px;
+    .content>ul>li:nth-child(5) {
+    background: #F5F5F5;
+    position: absolute;
+    top: 605px;
+    height: 246px;
+    width: 539px;
+    margin: 0 auto;
+    left: -1px;
     }
+
+    .content>ul>li:nth-child(5) .arbar img{
+        position: absolute;
+        _background-color: blueviolet;
+        right: 30px;
+        
+    } 
     .content>ul>li:nth-child(6){
         background:#2D2D2D;
         position: absolute;
@@ -591,7 +611,7 @@ body{
         position: absolute;
         top: 1130px;
         height: 246px;
-        width: 645px;
+        width: 539px;
         margin: 0 auto;
         left: -1px;
     }
@@ -751,7 +771,7 @@ body{
         background: #2D2D2D;
         position: relative;
         bottom: 553px;
-        width: 645px;
+        width: 539px;
         height: 286px;
     }
     .content>ul>li:nth-child(6) .txt6{
@@ -774,7 +794,7 @@ body{
     } 
     .content>ul>li:nth-child(6) .conB6{
         position: absolute;
-        left: 500px;
+        left: 400px;
         top: 90px;
     }
     .content>ul>li:nth-child(7) .txt7{
@@ -797,7 +817,7 @@ body{
     } 
     .content>ul>li:nth-child(7) .conB7{
         position: absolute;
-        left: 500px;
+        left: 400px;
         top: 90px;
     }
 } /* mobile end */
