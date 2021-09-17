@@ -13,6 +13,8 @@
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/jquery.bxslider.js"></script>
     <script src="js/myscript.js"></script>
+    <!--컬러박스-->
+    <script src="js/jquery.colorbox-min.js"></script>
     <!--폰트-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
@@ -28,7 +30,7 @@
 
     <!--폰트어썸-->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-
+   
      <style>
           .bx-wrapper {
             -moz-box-shadow:0 none;
@@ -38,6 +40,16 @@
             margin-bottom: 0;
         }
      </style>
+      <script>
+            $(".youtube").colorbox({
+                iframe:true,
+                innerWidth:700,
+                innerHeight:394
+            })
+        });
+
+        
+    </script>
 </head>
 <body>
     <header id="main_header"><!--위에있는 메뉴,토글,슬라이드의 영역이야^p^-->
@@ -92,7 +104,11 @@
                     새로운 도약을 시작합니다.
                    </p>
                </li>
-               <li>
+               <li> <!--유튜브 영상삽입-->
+                   <a href="https://www.youtube.com/embed/CAI11fSaQuU" class="youtube" >
+                    <img src="./images/pButton.png" alt="">
+                  </a>
+                  
                 <p class="txt2">
                     홍보영상
                  </p>
@@ -100,9 +116,9 @@
                     대우조선해양건설의<br>
                     다양한 홍보영상을 소개합니다.
                  </p>
-                 <div class="play">
+                 <!-- <div class="play">
                    
-                 </div>
+                 </div> -->
                </li>
 
                <li>
