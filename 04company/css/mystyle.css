@@ -63,7 +63,10 @@ body{
 
 .content>ul>li:nth-child(1) .txt1{}
 
-
+.content>ul{
+    background-color: blue;
+    height: 100%;
+}
 
 
 .content>ul>li:nth-child(2){
@@ -107,13 +110,8 @@ body{
     height: 276px;
 }
  
-.container{
-    background-color: cadetblue;
-}
-.container .section{
-    
-    background-color: cornflowerblue;
-}
+
+
 
 /******pc영역*******/
 @media screen and ( min-width:700px ){
@@ -121,6 +119,7 @@ body{
         height: 1930px;
         _background: gray;
         position: relative;
+        margin-bottom: 60px;
     }
     
     #header_top{
@@ -184,9 +183,9 @@ body{
     }
     
     .content{
-        width: 1241px;
-        height: 551px;
-        _background-color: rgb(83, 83, 83);
+        width: 1240px;
+        /* height: 551px; */
+        background-color: rgb(83, 83, 83);  
         position: absolute; 
         left: 50%;
         transform: translateX(-50%);
@@ -195,7 +194,7 @@ body{
     } 
 
     .content>ul>li:nth-child(1){
-        height: 321px;
+        height: 320px;
     }
     .content>ul>li:nth-child(1) .txt1{
         position: absolute;
