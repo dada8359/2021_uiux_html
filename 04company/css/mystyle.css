@@ -345,7 +345,7 @@ body{
         position: relative;
         left: 61.4%;
         bottom: 553px;
-        width: 479px;
+        
         height: 286px;
     }
     .content>ul>li:nth-child(6) .txt6{
@@ -541,7 +541,7 @@ body{
         position: absolute;
         left: 338px;
         top:302px;
-        width: 349.5px;
+        width:304px;
         height: 303.9px;
    
     }
@@ -562,7 +562,7 @@ body{
         position: absolute;
         top: 605px;
         height: 246px;
-        width: 689px;
+        width: 645px;
         margin: 0 auto;
         left: -1px;
     }
@@ -571,17 +571,16 @@ body{
         position: absolute;
         top: 850px;
         height: 246px;
-        width: 689px;
         margin: 0 auto;
-        left: -1px;
+        left: -1px; 
         
     }
     .content>ul>li:nth-child(7){
         background: #171717;
         position: absolute;
-        top: 1088px;
+        top: 1130px;
         height: 246px;
-        width: 689px;
+        width: 645px;
         margin: 0 auto;
         left: -1px;
     }
@@ -741,7 +740,7 @@ body{
         background: #2D2D2D;
         position: relative;
         bottom: 553px;
-        width: 689px;
+        width: 645px;
         height: 286px;
     }
     .content>ul>li:nth-child(6) .txt6{
